@@ -46,9 +46,6 @@
     "prettier": "^3.0.3",
     "wait-on": "^6.0.1"
   },
-  "peerDependencies": {
-    "oracledb": "https://github.com/oracle/node-oracledb/releases/download/v5.5.0/oracledb-src-5.5.0.tgz"
-  },
   "scripts": {
     "start": "nodemon bin/observable-database-proxy.js",
     "dev": "NODE_ENV=development nodemon bin/observable-database-proxy.js",
